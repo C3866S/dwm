@@ -11,18 +11,18 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
-static const char *fonts[]          = { "hack:size=10" };
 static const char dmenufont[]       = "hack:size=10";
-static const char col_gray1[]       = "#272530";
+static const char col_gray1[]       = "#171617";
 static const char col_gray2[]       = "#272530";
-static const char col_gray3[]       = "#dcdccc";
+static const char col_gray3[]       = "#ebfaa2";
 static const char col_gray4[]       = "#fffaff";
-static const char col_cyan[]        = "#423E51";
+static const char col_cyan[]        = "#370b54";
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};
+          /*               fg         bg         border   */
+         [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+         [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+  };
+
 
 
 /*Annachen*/
